@@ -1,0 +1,232 @@
+# WEBSITE-DESIGN
+Hab-Hub website design
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hab-hub</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./hab-hub.css">
+</head>
+
+<body>
+    <section class="all">
+
+
+
+    <header id="home">
+        <div class="firtsheader">
+            <img src="hub hub logo.jpg">
+            <nav>
+                <ul>
+                    <a href="#home">Home</a>
+                    <a href="#aboutus">About</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#contact">Contact</a>  
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="slider">
+            <div class="texth">
+                <p>Best<span>Seller</span</p>
+            </div>  
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+                <input type="radio" name="slide" id="img4">
+                
+
+                <img src="adobo.jpg" class="m1" alt="img1">
+                <img src="beefsteak.jpg" class="m2" alt="img2">
+                <img src="fillet.jpg" class="m3" alt="img3">
+                <img src="kinilaw.jpg" class="m4" alt="img4">
+                
+            </div>
+
+            <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>  
+                
+            </div>
+        </div> 
+    </header>
+
+
+
+
+
+
+    <section class="Aboutus" id="aboutus">
+        <body>
+            <div class="about">
+                <section class="aboutus">
+                    <div class="about-image">
+                        <img src="hub hub.jpg">
+                    </div>
+                    
+                    <div class="about-content">
+                        <h2>About Us</h2>
+                        <p>hub hub is a locally and family owned business that was founded in 2010. We're dedicated to creating wonderful sweet delicious surprises that you'll absolutely love. When you visit our shop, you won't believe your eyes with the incredible range of options that are available with us. We specialize in different types of foods! They're the best food that you'll ever experience, with an unforgettable taste.</p>
+                        <p>Our food are our passion. Without wonderful customers like you, our shop would never survive. That's why we're sure to say "thank you" to everyone who gives us their business and support. We're extremely thankful for our loyal customers and their love never falls short.
+                        Visit hub hub  where you'll always be treated like family. Warm smiles and welcome greetings are our number one guarantee. Carryout and delivery options are available. Our food taste as good as they look!</p>
+                    </div>
+                </section>	
+            </div>
+        </body>
+    </section>
+
+
+
+
+    <section class="menu" id="menu">
+        <h2>Menu</h2>
+        <section class="items">
+            <div class="item">
+                <img src="friedchicken.jpg">
+                <h4>Fried Chicken with Rice and Drink</h4>
+                <h6>How would you define comfort food? If you're anything like me and a lot of other people, one of the images that springs to mind when you think of food is a piece of deliciously crispy fried chicken.</h6>
+                <h5>Price: 70.00</h5>
+                
+            </div>
+            <div class="item">
+                <img src="bbq.jpg">
+                <h4>Pork Barbeque with Rice and Drink</h4>
+                <h6>The main ingredient in Filipino Style Pork BBQ is barbecued pork on bamboo skewers. It is made up of chunks of thinly sliced pork that have been marinated in a unique blend of flavors and spices.</h6>
+                <h5>Price: 80.00</h5>
+                	
+            </div>
+            <div class="item">
+                <img src="humba.jpg">
+                <h4>Humba</h4>
+                <h6>Tender pork, salted black beans, and a variety of spices make up the meal humba. It is the ideal fusion of sweet and salty, two flavors that Filipinos like, thanks to its rich flavor palette.</h6>
+                <h5>Price: 55.00</h5>
+                
+            </div>
+            <div class="item">
+                <img src="fillet.jpg">
+                <h4>Sweet and Sour Filli</h4>
+                <h6>sweet and sour fillet A tasty sweet and sour fish fillet for those who like to eat fish without those tiny fish bones.</h6>
+                <h5>Price: 75.00</h5>
+                
+            </div>
+            <div class="item">
+                <img src="beefsteak.jpg">
+                <h4>Beefsteak</h4>
+                <h6>Bistek Tagalog is the Filipino version of the Beef Steak. It is comprised of thinly sliced beef cooked in soy sauce and lemon juice and garnished with caramelized onion rings.</h6>
+                <h5>Price: 70.00</h5>
+                
+            </div>
+            <div class="item">
+                <img src="kinilaw.jpg">
+                <h4>Kinilaw</h4>
+                <h6>Kinilaw is a type of Filipino fish ceviche wherein Wahoo fish fillet is cut into cubes and cured in a mixture of calamansi juice, fresh ginger, onion, chili, and seasonings.</h6>
+                <h5>Price: 70.00</h5>
+               
+            </div>
+            <div class="item">
+                <img src="adobo.jpg">
+                <h4>Chicken adobo</h4>
+                <h6>Adobo is an authentic Filipino dish and is the mostly recognized Filipino foods, this dish is uniquely prepared by stewing chicken in vinegar and soy sauce.</h6>
+                <h5>Price: 35.00</h5>
+                
+            </div>
+            <div class="item">
+                <img src="rice.jpg">
+                <h4>Rice</h4>
+                <h6>Rice is always freshly cooked to perfection. We believe that the quality of rice can make or break a dish, which is why we prioritize using only the finest rice grains.</h6>
+                <h5>Price: 12.00</h5>
+            </div>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <h2>Contact us</h2>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <ul>
+                            <li><p>FJJP+JRR, Max Y. Suniel St, Cagayan de Oro, Misamis Oriental</p></li>
+                            <li><p>8 Corrales Ave, Cagayan de Oro, 9000 Misamis Oriental</p></li>
+                            <li><p>Premier Building, Elipe Park Commercial Complex, Carmen, Cagayan de Oro, 9000 Misamis Oriental</p></li>
+                        </ul>
+                        </div>
+                    </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>0916 776 8510</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>Habhab123@gmail.com</p>
+                        </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+    
+                </form>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="footer">
+        <div class="inner-footer">
+        </div>
+            <div class="quick-link">
+                <div class="quick-item">
+                    <ul>
+                    <a href="#home">Home</a>
+                        <a href="#menu">Menu</a>
+                    <a href="#aboutus">About</a>
+                        <a href="#contact">Contact</a>
+                        <a href="developer.html">Developer</a>
+                    <ul>
+                </div>
+            </div>
+            <div>
+                Copyright &copy; Hab-Hub. All Right Reserved
+            </div>
+    </footer>
+</section>
+</body>
+</html>
